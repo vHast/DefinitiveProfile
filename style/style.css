@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 /* Section 1.0 - Navbar */
@@ -15,7 +15,7 @@ li {
   list-style: none
 ;}
 
-a {
+a, h1, h2 {
   text-decoration: none;
   color: rgb(231, 231, 231);
 }
@@ -72,3 +72,46 @@ a {
   background-color: dodgerblue;
 }
 
+/* Section 2.0 - Showcase */
+
+#showcase {
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+}
+
+.showcase-menu {
+  background-image: url(/img/showcase.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 4rem;
+  margin: 0 15%;
+  height: inherit;
+  text-align: center;
+}
+
+.showcase-menu h1 {
+  color: rgb(0, 162, 255);
+  font-size: 2rem;
+  text-shadow: black 1px 1px 5px;
+}
+
+.showcase-menu h2 {
+  padding-top: 0.8rem;
+  font-size: 3rem;
+  text-shadow: black 1px 1px 4px;
+}
+
+.showcase-menu h3 {
+  padding-top: 0.8rem;
+  font-size: 1.7rem;
+  text-shadow: black 1px 1px 4px;
+  color: white;
+}
+
+.showcase-menu h4 {
+  padding-top: 0.8rem;
+  font-size: 1rem;
+  text-shadow: black 1px 1px 4px;
+  color: white;
+}

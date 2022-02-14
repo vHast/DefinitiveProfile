@@ -23,7 +23,7 @@
     top: 70px;
     gap: 0;
     flex-direction: column;
-    background-color: #262626;
+    background-color: #141414ef;
     width: 100%;
     text-align: center;
     transition: 0.3s;
@@ -35,5 +35,21 @@
 
   .nav-menu.active {
     left: 0;
+  }
+
+  .showcase-menu {
+    margin: 0;
+  }
+
+  .showcase-menu h1{
+    font-size: 1.5rem;
+  }
+
+  .showcase-menu h2{
+    font-size: 2.2rem;
+  }
+
+  .showcase-menu h3 {
+    font-size: 1.3rem;
   }
 }
