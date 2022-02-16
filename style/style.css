@@ -231,27 +231,71 @@ header {
   text-align: center;
 }
 .projects-container {
-  margin: 0 15%;
+  margin: 3rem 15%;
   display: flex;
   flex-direction: row;
   height: 50vh;
+  border: 2px solid gray;
 }
 .project-item {
+  border-left: 2px solid gray;
   padding: 2rem 1rem;
   width: 33%;
   height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.project-item a{
+  margin-top: 2rem;
+  background-color: rgb(117, 0, 146);
+  display: flex;
+  flex-direction: row;
+  font-size: 1.4rem;
+  padding:  1.5rem 1rem;
+  width: fit-content;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease;
+}
+
+
+.project-item a i {
+  padding-left: 0.5rem;
+}
+
+.project-item a:hover {
+  background-color: rgb(147, 0, 184);
 }
 
 .project-item h1 {
   font-size: 1.2rem;
 }
 
+.project-item p {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+}
+
+.project-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 223px;
+
+}
+
 #project1 {
-  background-color: red;
+  background-image: url(/img/eestitalklogo2.png);
 }
 
 #project2 {
-  background-color: rgb(131, 0, 0);
+  background-image: url(/img/eestitalklogo2.png);
 }
 
 #project3 {
