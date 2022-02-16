@@ -221,7 +221,7 @@ header {
 #projects {
   padding-top: 2rem;
   background-color: rgb(10, 10, 10);
-  height: 50vh;
+  height: 100vh;
   width: 100%;
   color: white;
 }
@@ -229,4 +229,31 @@ header {
 #projects h1 {
   font-size: 3rem;
   text-align: center;
+}
+.projects-container {
+  margin: 0 15%;
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+}
+.project-item {
+  padding: 2rem 1rem;
+  width: 33%;
+  height: 50vh;
+}
+
+.project-item h1 {
+  font-size: 1.2rem;
+}
+
+#project1 {
+  background-color: red;
+}
+
+#project2 {
+  background-color: rgb(131, 0, 0);
+}
+
+#project3 {
+  background-color: rgb(36, 0, 0);
 }
