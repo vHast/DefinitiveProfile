@@ -98,6 +98,10 @@
     padding: 5rem 2rem;
     margin: 0;
   }
+
+  .footer {
+    font-size: 1rem;
+  }
 }
 
 @media(max-width:376px) {
@@ -110,6 +114,7 @@
   #sh-icons {
     font-size: 1.5rem;
   }
+
 }
 
 @media(max-width: 1450px) {
