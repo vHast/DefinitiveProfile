@@ -119,17 +119,17 @@ header {
 }
 .showcase-menu h1 {
   color: rgb(218, 228, 255);
-  font-size: 3rem;
+  font-size: 2.6rem;
 }
 
 .showcase-menu h2 {
   padding-top: 0.8rem;
-  font-size: 4rem;
+  font-size: 3.4rem;
 }
 
 .showcase-menu h3 {
   padding-top: 0.8rem;
-  font-size: 2.3rem;
+  font-size: 1.8rem;
 }
 
 .showcase-menu h4 {
@@ -161,15 +161,16 @@ header {
 
 #shw-2 h1 {
   padding: 0;
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   color: white;
 }
 /* Section 2.0 - Showcase Icons */
 #sh-icons {
   color: rgb(201, 201, 201);
   margin-top: 2rem;
+  margin-bottom: 3.3rem;
   display: flex;
-  font-size: 3.4rem;
+  font-size: 2.8rem;
   gap: 35px;
 }
 
@@ -321,4 +322,12 @@ footer {
   width: 100%;
   height: 6rem;
   background-color: black;
+}
+
+/* Section 5.0 - Contact - Showcase  */
+
+#contact {
+  height: 90vh;
+  width: 100%;
+  background-color: gray;
 }
