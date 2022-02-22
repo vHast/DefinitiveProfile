@@ -221,7 +221,6 @@ header {
 #projects {
   padding-top: 2rem;
   background-color: rgb(10, 10, 10);
-  height: 100vh;
   width: 100%;
   color: white;
 }
@@ -231,17 +230,20 @@ header {
   text-align: center;
 }
 .projects-container {
-  margin: 3rem 15%;
+  padding-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0rem 0rem 0rem;
   display: flex;
   flex-direction: row;
-  height: 50vh;
-  border: 2px solid gray;
+  height: fit-content;
 }
 .project-item {
-  border-left: 2px solid gray;
-  padding: 2rem 1rem;
-  width: 33%;
-  height: 50vh;
+  background-color: rgb(17, 17, 17);
+  border: 2px solid rgba(128, 128, 128, 0.329);
+  width: 500px;
+  height: 588px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -277,6 +279,7 @@ header {
 }
 
 .project-item p {
+  padding: 02rem;
   margin-top: 2rem;
   font-size: 1.4rem;
 }
@@ -295,9 +298,9 @@ header {
 }
 
 #project2 {
-  background-image: url(/img/eestitalklogo2.png);
+  background-image: url(/img/mycartlogo.png);
 }
 
 #project3 {
-  background-color: rgb(36, 0, 0);
+  background-image: url(/img/federeviewslogo.png);
 }
