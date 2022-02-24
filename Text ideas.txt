@@ -1,5 +1,9 @@
 Hello World! I'm Federico Alvarez, a Front-End Web developer based out of Barcelona, Spain, from bushcrafting and trekking to lines of code on a web page.
 
-I really enjoy combining worlds of logic and creative design to make eye-catching, accesible, and user-friendly websites and applications.
+I really enjoy combining worlds of logic and creative design to make eye-catching, accesible, and user-friendly websites and applications, I'm a strong advocate on open-source and free software, learning Bash in my spare time!
 
-I'm excited to make the leap and continue refining my skills with the right company, contact 
+I'm excited to make the leap and continue refining my skills with the right company, feel free to contact me!
+
+-- Why Hire Me ? --
+
+High understanding of SEO (fine tuning of meta tags), accessibility, responsiveness
