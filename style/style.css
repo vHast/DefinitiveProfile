@@ -108,7 +108,7 @@ header {
 }
 
 .showcase-container {
-  background-image: url(/img/showcase.jpg);
+  background-image: url(/img/showcase.jpg) !important;
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
