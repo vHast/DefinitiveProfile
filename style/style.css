@@ -299,7 +299,7 @@ header {
 }
 
 #project1 {
-  background-image: url(/img/eestitalklogo2.png);
+  background-image: url(/img/EestiTalkLogo2.png);
 }
 
 #project2 {
@@ -310,7 +310,20 @@ header {
   background-image: url(/img/federeviewslogo.png);
 }
 
-/* Section 4.0 - Footer */
+/* Section 4.0 - Profile */
+
+#profile {
+  width: inherit;
+  height: 70vh;
+  background-color: rgb(17, 17, 17);
+}
+
+
+
+
+
+
+/* Section 5.0 - Footer */
 
 footer {
   padding: 0 3rem;
