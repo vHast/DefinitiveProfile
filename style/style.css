@@ -92,7 +92,7 @@ header {
 /* Section 2.0 - Showcase */
 
 #showcase {
-  width: 100vw;
+  width: 100%;
   padding-top: 4rem;
   height: fit-content;
   background-color: rgb(0, 9, 94);
@@ -227,7 +227,7 @@ header {
 #projects {
   padding-top: 2rem;
   background-color: rgb(10, 10, 10);
-  width: 100vw;
+  width: 100%;
   color: white;
 }
 
@@ -320,12 +320,59 @@ header {
   background-color: rgb(17, 17, 17);
 }
 
+/* Section 5.0 - Contact - Showcase  */
+
+#contact {
+  height: 90vh;
+  width: 100%;
+  background-color: rgb(29, 29, 29);
+  display: flex;
+}
+
+
+.contact-form {
+  background-color: red;
+  width: 50%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10rem;
+}
+
+.contact-form h1{
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+
+.contact-form p {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  background-color: rebeccapurple;
+  padding: 1rem;
+}
+
+.contact-form form input {
+  
+  height: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact-map {
+  background-color: rgb(0, 47, 255);
+  width: 50%;
+  height: inherit;
+}
 
 
 
-
-
-/* Section 5.0 - Footer */
+/* Section 6.0 - Footer */
 
 footer {
   padding: 0 3rem;
@@ -335,15 +382,8 @@ footer {
   align-items: center;
   font-size: 1.1rem;
   color: white;
-  width: 100vw;
+  width: 100%;
   height: 6rem;
   background-color: black;
 }
 
-/* Section 5.0 - Contact - Showcase  */
-
-#contact {
-  height: 90vh;
-  width: 100%;
-  background-color: rgb(29, 29, 29);
-}
