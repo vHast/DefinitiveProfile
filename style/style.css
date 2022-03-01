@@ -323,7 +323,7 @@ header {
 /* Section 5.0 - Contact - Showcase  */
 
 #contact {
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   background-color: rgb(29, 29, 29);
   display: flex;
@@ -331,7 +331,6 @@ header {
 
 
 .contact-form {
-  background-color: red;
   width: 50%;
   height: inherit;
   display: flex;
@@ -348,20 +347,47 @@ header {
 
 .contact-form p {
   font-size: 1.5rem;
-  padding-bottom: 1rem;
+  padding-bottom: 3rem;
+  color: white;
 }
 
 .contact-form form {
+  width: 80%;
   display: flex;
   flex-direction: column;
-  background-color: rebeccapurple;
   padding: 1rem;
 }
 
 .contact-form form input {
-  
-  height: 2rem;
+  padding-left:1rem;
+  justify-content: flex-start;
+  height: 3rem;
+  font-size: 1.2rem;
   margin-bottom: 1rem;
+  border:none;
+  background-color: grey;
+}
+#message-btn {
+  align-items: flex-start;
+  height: 10rem;
+}
+#submit-btn {
+  padding: 0;
+  background-color: white;
+  width: 10rem;
+  justify-content: right;
+  align-self: flex-end;
+}
+
+.name-email {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.name-email input {
+  width: 294px;
+  justify-content: center;
 }
 
 .contact-map {
