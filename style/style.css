@@ -333,7 +333,7 @@ header {
 .contact-form {
   margin-top: 70px;
   width: 50%;
-  height: inherit;
+  height: 831px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -371,9 +371,13 @@ header {
   border:none;
   background-color: grey;
   border-bottom: 2px solid white;
+  transition: 0.2s ease;
+}
+
+.contact-form form input:hover {
+  background-color: dodgerblue;
 }
 #message-btn {
-  align-items: flex-start;
   height: 10rem;
 }
 #submit-btn {
@@ -385,8 +389,13 @@ header {
   border: none;
   color: rgb(190, 234, 255);
   border: 2px solid white;
+  transition: 0.2s ease;
 }
 
+#submit-btn:hover {
+  background-color: dodgerblue;
+  border: none;
+}
 .name-email {
   gap: 1rem;
   display: flex;
