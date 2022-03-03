@@ -66,6 +66,7 @@
   }
 
   #contact {
+    height: fit-content;
     flex-direction: column;
   }
 
@@ -75,8 +76,13 @@
   }
 
   .contact-map {
+    display: none;
     width: 100%;
     margin-top: 0;
+  }
+
+  footer {
+    padding: 0.5rem 1rem;
   }
 
 
