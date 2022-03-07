@@ -124,7 +124,25 @@
   .footer {
     font-size: 1rem;
   }
+
+  .minprojects-container {
+    margin: 0rem 10%;
+  }
+  .rows {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .minproj-container {
+    
+    width: 250px;
+    height: fit-content;
+    padding-bottom: 2rem;
+  }
 }
+
 
 @media(max-width:376px) {
   .showcase-menu h4 {

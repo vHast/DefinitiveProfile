@@ -7,3 +7,46 @@ I'm excited to make the leap and continue refining my skills with the right comp
 -- Why Hire Me ? --
 
 High understanding of SEO (fine tuning of meta tags), accessibility, responsiveness
+
+-- Curriculum --
+
+  Javascript Curriculum
+
+  Javascript Foundations [x]
+  ECMAScript6 (ES6) [x]
+  Regular Expressions [x]
+  Debugging [x]
+  Data Structures [x]
+  Object Oriented Programming (OOP) [x]
+  Functional Programming [ ]
+  Algorithm Scripting [x]
+
+  Responsive Web Design
+
+  HTML/HTML5 [x]
+  CSS3 [x]
+  CSS Flexbox [x]
+  CSS Grid [x]
+  Applied Visual Design [x]
+  Applied accessibility [x]
+  Responsive Web Design Principles [x]
+
+  Frontend Development Libraries
+
+  Bootstrap [ ]
+  jQuery [ ]
+  SASS [x]
+  React [ ]
+  Redux [ ]
+  React and Redux [ ]
+
+  Back End Development and APIs 
+
+  MAnaging Packages with NPM [ ]
+  Node.js and Express [ ]
+  MongoDB and Mongoose [ ]
+
+  Quality Assurance
+
+  Quality Assurance and Testing with Chai [ ]
+  Advanced Node and Express [ ]
