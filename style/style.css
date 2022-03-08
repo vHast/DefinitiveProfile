@@ -385,12 +385,12 @@ header {
 .minproj-container a {
   margin-top: 0.5rem;
   width: fit-content;
-  padding:  0.5rem 1rem;
+  padding:  0.5rem 1rem 1.6rem 1rem;
   background-color: rgb(43, 43, 43);
   transition: 0.2s ease-in;
 }
 .minproj-container a:hover{
-  background-color: beige;
+  background-color: rgb(34, 0, 114);
 }
 
 .minproj-container a i {

@@ -22,7 +22,7 @@ function initMap() {
     zoom: 6,
     center: barcelona,
   });
-  // The marker, positioned at Uluru
+  // The marker, positioned at Barcelona
   const marker = new google.maps.Marker({
     position: barcelona,
     map: map,
