@@ -144,6 +144,16 @@
     height: fit-content;
     padding-bottom: 2rem;
   }
+
+  /* Section 6.0 - About */
+
+  .aboutcontent {
+    margin: 0 10%;
+  }
+  #about h1 {
+    padding-top: 7rem;
+  }
+  
 }
 
 

@@ -385,6 +385,7 @@ header {
   justify-content: center;
   align-items: center;
 }
+
 .minproject-img {
   width: 100px;
   height: 100px;
@@ -393,6 +394,9 @@ header {
   background-size: cover;
 }
 
+#minproject1 {
+  background-image: url(/img/tasklist.png);
+}
 .minproj-container h3 {
   color: white;
 }
@@ -511,7 +515,57 @@ header {
   z-index: 0;
 }
 
-/* Section 6.0 - Footer */
+/* Section 6.0 - About */
+
+#about {
+  background-color: rgb(17, 17, 17);
+  width: 100%;
+  height: fit-content;
+  color: white;
+  padding-bottom: 2rem;
+}
+
+.aboutcontent {
+  margin: 0 20%;
+}
+
+#about h1 {
+  font-size: 2.4rem;
+  padding-top: 10rem;
+  color: white;
+  color: dodgerblue;
+}
+
+#about p {
+  padding-top: 0.5rem;
+  font-size: 1.5rem;
+}
+#currentcerts {
+  margin-top: 1rem;
+}
+.techlist {
+  display: flex;
+}
+
+.techlist ul {
+  padding: 0.6rem 0rem 0rem 1rem;
+}
+
+.techlist ul li span {
+  color: rgb(0, 255, 213);
+}
+
+.techlist ul li {
+  font-size: 1.3rem;
+}
+
+.tools ul li span {
+  color: rgb(42, 109, 255);
+}
+.certs ul li span {
+  color: rgb(255, 123, 0);
+}
+/* Section 7.0 - Footer */
 
 footer {
   z-index: 1;
