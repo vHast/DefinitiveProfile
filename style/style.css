@@ -209,7 +209,7 @@ header {
   font-size: 1.8rem;
   color: white;
 }
-/* Section 2.0 - Showcase Icons */
+/* Section 2.1 - Showcase Icons */
 #sh-icons {
   color: rgb(201, 201, 201);
   margin-top: 2rem;
@@ -354,7 +354,7 @@ header {
   background-image: url(/img/federeviewslogo.png);
 }
 
-/* Section 4.0 - Profile */
+/* Section 4.0 - Minor projects */
 
 #profile {
   text-align: center;
@@ -372,7 +372,6 @@ header {
   height: fit-content;
   display: flex;
   flex-direction: column;
-  padding-bottom: 2rem;
 }
 .rows {
   display: flex;
@@ -522,7 +521,7 @@ header {
   width: 100%;
   height: fit-content;
   color: white;
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
 }
 
 .aboutcontent {
