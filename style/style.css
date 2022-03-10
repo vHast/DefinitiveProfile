@@ -28,34 +28,44 @@ a, h1, h2 {
 }
 
 .bckg-red {
-  background-color: rgb(255, 45, 45);
+  border-top: 15px solid rgb(255, 45, 45);
+  background-color: rgb(68, 11, 11);
 }
 .bckg-blue{
-  background-color: rgb(45, 59, 255);
+  border-top: 15px solid rgb(45, 59, 255);
+  background-color: rgb(9, 12, 46);
 }
 .bckg-cyan{
-  background-color: rgb(45, 255, 167);
+  border-top: 15px solid rgb(45, 255, 167);
+  background-color: rgb(13, 58, 39);
 }
 .bckg-white{
-  background-color: rgb(212, 212, 212);
+  border-top: 15px solid rgb(212, 212, 212);
+  background-color: rgb(59, 59, 59);
 }
 .bckg-yellow{
-  background-color: rgb(255, 245, 111);
+  border-top: 15px solid rgb(255, 245, 111);
+  background-color: rgb(77, 73, 31);
 }
 .bckg-purple{
-  background-color: blueviolet;
+  border-top: 15px solid blueviolet;
+  background-color: rgb(47, 15, 77);
 }
 .bckg-green {
-  background-color: greenyellow;
+  border-top: 15px solid greenyellow;
+  background-color: rgb(64, 92, 23);
 }
 .bckg-black {
-  background-color: black;
+  border-top: 15px solid rgb(37, 37, 37);
+  background-color: rgb(0, 0, 0);
 }
 .bckg-orange {
-  background-color: rgb(255, 139, 61);
+  border-top: 15px solid rgb(255, 139, 61);
+  background-color: rgb(75, 40, 17);
 }
 .bckg-softyellow {
-  background-color: rgb(255, 225, 89);
+  border-top: 15px solid rgb(255, 225, 89);
+  background-color: rgb(75, 65, 22);
 }
 
 /* Section 1.0 - Navbar */
@@ -382,15 +392,20 @@ header {
   background-position: center;
   background-size: cover;
 }
+
+.minproj-container h3 {
+  color: white;
+}
 .minproj-container a {
   margin-top: 0.5rem;
   width: fit-content;
   padding:  0.5rem 1rem 1.6rem 1rem;
   background-color: rgb(43, 43, 43);
+  border: 1px solid white;
   transition: 0.2s ease-in;
 }
 .minproj-container a:hover{
-  background-color: rgb(34, 0, 114);
+  background-color: rgb(97, 97, 97);
 }
 
 .minproj-container a i {
