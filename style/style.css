@@ -478,7 +478,21 @@ header {
   background-color: dodgerblue;
 }
 #message-btn {
+  padding-top: 0.5rem;
+  padding-left: 1rem;
   height: 10rem;
+  margin-bottom: 1rem;
+  justify-content: flex-start;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  border:none;
+  background-color: grey;
+  border-bottom: 2px solid white;
+  transition: 0.2s ease;
+}
+
+#message-btn:hover {
+  background-color: dodgerblue;
 }
 #submit-btn {
   padding: 0;
