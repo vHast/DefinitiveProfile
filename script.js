@@ -15,16 +15,16 @@ document.querySelectorAll('.nav-link').forEach(n => n.addEventListener("click", 
 
 // Initialize and add the map
 function initMap() {
-  // The location of Barcelona
-  const barcelona = { lat: 41.3874, lng: 2.1686 };
-  // The map, centered at Barcelona
+  // The location of Tallinn
+  const tallinn = { lat: 59.4370, lng: 24.7536 };
+  // The map, centered at Tallinn
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 6,
-    center: barcelona,
+    center: tallinn,
   });
-  // The marker, positioned at Barcelona
+  // The marker, positioned at Tallinn
   const marker = new google.maps.Marker({
-    position: barcelona,
+    position: tallinn,
     map: map,
   });
 }
