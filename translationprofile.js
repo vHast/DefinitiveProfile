@@ -1,9 +1,3 @@
-// Fading projects !! NEEDS ANIMATION SMOOTHERING/TRANSITION
-
-let fadingProj = document.getElementById('projectsignal');
-fadingProj.style.display = 'flex';
-
-
 // Translation - Profile-Portfolio
 
 let basedLocation = document.getElementById('based');
@@ -28,7 +22,7 @@ const translationEE = () => {
   thirdPrjDesc.innerHTML = "Staatiline veebisait, mis keskendub kujundusele muusika jagamiseks ja ülevaatamiseks";
   contactId.innerHTML = "Kontakti";
   aboutId.innerHTML = "Teave"
-  enBtnProfile.style.display = 'block';
+  enBtnProfile.style.display = 'inline';
   eeBtnProfile.style.display = 'none';
 }
 
@@ -42,5 +36,5 @@ const translationEN = () => {
   contactId.innerHTML = "Contact";
   aboutId.innerHTML = "About";
   enBtnProfile.style.display = 'none';
-  eeBtnProfile.style.display = 'block';
+  eeBtnProfile.style.display = 'inline';
 }
