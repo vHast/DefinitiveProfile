@@ -108,10 +108,24 @@ header {
 .nav-link{
   transition: 0.3s ease;
 }
-
-#yt-btn {
-  color: rgb(194, 0, 0);
+/* Translation */
+.translate-btn {
+  font-size: 2rem;
+  color: rgb(59, 111, 255);
+  transition: 0.3s ease-in;
 }
+.translate-btn:hover {
+  color: white;
+}
+#yt-btn {
+  display: block;
+}
+
+#en-btn {
+  color: white;
+  display: none;
+}
+
 .nav-link:hover{
   color: dodgerblue;
 }

@@ -27,14 +27,17 @@
           <a href="#projects" class="nav-link">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a href="services.html" class="nav-link">About</a>
+          <a href="services.html" class="nav-link" id="aboutid">About</a>
         </li>
         <li class="nav-item">
-          <a href="contact.html" class="nav-link">Contact</a>
+          <a href="contact.html" class="nav-link" id="contactid">Contact</a>
         </li>
         <li class="nav-item">
-          <a target="_blank" class="nav-link" onclick="translationEE()">YouTube <i id="yt-btn" class="fa-brands fa fa-youtube"></i></a>
+          <a target="_blank" class="nav-link translate-btn" id="yt-btn"  onclick="translationEE()"><i class="fas fa-language"></i></a>
         </li>
+        <li class="nav-item">
+          <a target="_blank" class="nav-link translate-btn"  id="en-btn" onclick="translationEN()"><i class="fas fa-language"></i></a>
+        </li> 
       </ul>
       
       <!--  Section 1.1 - Navbar hamburger menu -->
@@ -85,19 +88,19 @@
         <div class="project-img" id="project1"></div>
         <a href="https://github.com/vHast/EestiTalk" class="showcase-item btn" target="_blank">GitHub<i class="fa-brands fa fa-github"></i></a>
         <a href="https://mystifying-sinoussi-491555.netlify.app/" class="showcase-item btn secondarybtn" target="_blank">Website<i class="fas fa-desktop"></i></a>
-        <p>An online plaform used to learn the estonian language</p>
+        <p id="firstprj">An online plaform used to learn the estonian language</p>
       </div>
       <div class="project-item">
         <div class="project-img" id="project2"></div>
         <a href="#" class="showcase-item btn" target="_blank">GitHub<i class="fa-brands fa fa-github"></i></a>
         <a href="#" class="showcase-item btn secondarybtn">Website<i class="fas fa-desktop"></i></a>
-        <p>An ecommerce website, focused on business and transactions</p>
+        <p id="secondprj">An ecommerce website, focused on business and transactions</p>
       </div>
       <div class="project-item">
         <div class="project-img" id="project3"></div>
         <a href="#" class="showcase-item btn">GitHub<i class="fa-brands fa fa-github"></i></a>
         <a href="#" class="showcase-item btn secondarybtn">Website<i class="fas fa-desktop"></i></a>
-        <p>Static website,focused on design to share and review music</p>
+        <p id="thirdprj">Static website,focused on design to share and review music</p>
       </div>
     </div>
   </section>
