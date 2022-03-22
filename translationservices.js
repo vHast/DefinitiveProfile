@@ -7,6 +7,8 @@ let fourthPar = document.getElementById('fourthp');
 let fifthPar = document.getElementById('currentcerts');
 let sixthPar = document.getElementById('sixthp');
 let seventhPar = document.getElementById('seventhp')
+let aboutId = document.getElementById('aboutid');
+let contactId = document.getElementById('contactid');
 let enBtnProfile = document.getElementById('en-btn');
 let eeBtnProfile = document.getElementById('yt-btn');
 
