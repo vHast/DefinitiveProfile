@@ -27,6 +27,9 @@ a, h1, h2 {
   border-radius: 5%;
 }
 
+.bckg-btn-red {
+  background-color: rgb(68, 11, 11) !important;
+}
 .bckg-red {
   border-top: 15px solid rgb(255, 45, 45);
   background-color: rgb(68, 11, 11);
