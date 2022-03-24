@@ -424,6 +424,11 @@ header {
 #minproject2 {
   background-image: url(/img/colorflipper.png);
 }
+
+#minproject3 {
+  background-image: url(/img/stopwatch.png);
+}
+
 .minproj-container h3 {
   color: white;
 }
