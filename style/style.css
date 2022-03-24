@@ -420,6 +420,10 @@ header {
 #minproject1 {
   background-image: url(/img/tasklist.png);
 }
+
+#minproject2 {
+  background-image: url(/img/colorflipper.png);
+}
 .minproj-container h3 {
   color: white;
 }
