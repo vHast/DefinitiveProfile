@@ -545,6 +545,15 @@ header {
   width: 100%;
   justify-content: center;
 }
+.contactinfo {
+  display: flex;
+  color: rgb(65, 65, 65);
+  justify-content: center;
+
+}
+.contactinfo p {
+  margin-left: 1rem;
+}
 
 .contact-map {
   margin-top: 70px;
