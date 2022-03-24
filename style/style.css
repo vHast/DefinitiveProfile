@@ -466,6 +466,7 @@ header {
 }
 
 .contact-form h1{
+  padding-top: 8rem;
   font-size: 3rem;
   padding-bottom: 1rem;
   color: dodgerblue;
@@ -546,6 +547,7 @@ header {
   justify-content: center;
 }
 .contactinfo {
+  font-size: 1rem;
   display: flex;
   color: rgb(65, 65, 65);
   justify-content: center;
