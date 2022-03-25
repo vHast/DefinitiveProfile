@@ -429,6 +429,10 @@ header {
   background-image: url(/img/stopwatch.png);
 }
 
+#minproject4 {
+  background-image: url(/img/xface.png);
+}
+
 .minproj-container h3 {
   color: white;
 }
