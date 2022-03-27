@@ -30,6 +30,7 @@ a, h1, h2 {
 .bckg-btn-red {
   background-color: rgb(68, 11, 11) !important;
 }
+
 .bckg-red {
   border-top: 15px solid rgb(255, 45, 45);
   background-color: rgb(68, 11, 11);
@@ -371,7 +372,7 @@ header {
 }
 
 #project2 {
-  background-image: url(/img/mycartlogo.png);
+  background-image: url(/img/myGarden.png);
 }
 
 #project3 {

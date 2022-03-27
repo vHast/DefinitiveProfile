@@ -18,7 +18,7 @@ const translationEE = () => {
   basedSubtitles.innerHTML = "Kujundan ja arendan responsiivseid, optimeeritud ja tõhusaid veebisaite, vabakutseliste võimaluste jaoks saadaval.";
   stackTxt.innerHTML = "Minu Stack";
   firstPrjDesc.innerHTML = "Eesti keele õppimisele pühendatud veebiplatvorm";
-  secondPrjDesc.innerHTML = "Tehingutele ja ärisuhtlusele pühendatud e-kaubanduse veebisait";
+  secondPrjDesc.innerHTML = "Veebisait hariva aiandusprogrammi ja muude teenuste jaoks";
   thirdPrjDesc.innerHTML = "Staatiline veebisait, mis keskendub kujundusele muusika jagamiseks ja ülevaatamiseks";
   contactId.innerHTML = "Kontakti";
   aboutId.innerHTML = "Teave"
@@ -31,7 +31,7 @@ const translationEN = () => {
   basedSubtitles.innerHTML = "I design and develop responsive, optimized and efficient websites, available for freelance opportunities.";
   stackTxt.innerHTML = "My Stack";
   firstPrjDesc.innerHTML = "An online plaform used to learn the estonian language";
-  secondPrjDesc.innerHTML = "An ecommerce website, focused on business and transactions";
+  secondPrjDesc.innerHTML = "A website for an educational gardening program and other services";
   thirdPrjDesc.innerHTML = "Static website,focused on design to share and review music";
   contactId.innerHTML = "Contact";
   aboutId.innerHTML = "About";
