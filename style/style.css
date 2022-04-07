@@ -372,7 +372,7 @@ header {
 }
 
 #project2 {
-  background-image: url(/img/myGarden.png);
+  background-image: url(/img/techlead.png);
 }
 
 #project3 {
@@ -440,6 +440,10 @@ header {
 
 #minproject6 {
   background-image: url(/img//dna.png);
+}
+
+#minproject7 {
+  background-image: url(/img/sprout.png);
 }
 .minproj-container h3 {
   color: white;
