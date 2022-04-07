@@ -411,6 +411,7 @@ header {
 }
 
 .minproject-img {
+  margin-top: 0.5rem;
   width: 100px;
   height: 100px;
   background-image: url(/img/minproj1.png);
