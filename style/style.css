@@ -263,7 +263,7 @@ header {
 }
 
 #nodejs-logo {
-  color: rgb(179, 22, 252);
+  color: rgb(75, 207, 23);
 }
 
 #bootstrap-logo {
@@ -305,7 +305,6 @@ header {
   display: flex;
   flex-direction: row;
   height: fit-content;
-  transition: 5s ease-in;
 }
 .project-item {
   background-color: rgb(17, 17, 17);
