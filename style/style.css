@@ -401,6 +401,10 @@ header {
   display: flex;
 }
 
+.secondrow {
+  display: none;
+}
+
 .minproj-container {
   width: 252px;
   display: flex;
